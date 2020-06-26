@@ -1,2 +1,65 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
-@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss"
+
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --facebook:#3b5998;
+    --twitter:#1da1f2;
+    --twitch:#6441a5;
+    --instagram:#c13584;
+    --github:#000000;
+    --youtube:#ff0000;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:var(--bs-white);
+}
+
+.multi-collapse.row{
+    margin:0;
+}
+
+.row .col{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.fa-facebook,.fa-twitter,.fa-instagram,.fa-youtube,.fa-twitch,.fa-github{
+    height: 52px;
+    padding: 1rem;
+    font-size:1.4rem;
+}
+
+.fa-facebook{
+    background-color:var(--facebook);
+}
+
+.fa-twitter{
+    background-color:var(--twitter);
+}
+
+.fa-instagram{
+    background-color:var(--instagram);
+}
+
+.fa-youtube{
+    background-color:var(--youtube);
+}
+
+.fa-twitch{
+    background-color:var(--twitch);
+}
+
+.fa-github{
+    color:var(--github);
+    background-color:var(--bs-white);
+}
