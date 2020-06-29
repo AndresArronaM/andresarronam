@@ -24,11 +24,11 @@ a{
     color:var(--bs-white);
 }
 
-.multi-collapse.row{
+.multi-collapse.row, .container-fluid, .row{
     margin:0;
 }
 
-.row .col{
+.row .col, .container-fluid, .row .col-2{
     padding-left: 0px;
     padding-right: 0px;
 }
@@ -62,4 +62,11 @@ a{
 .fa-github{
     color:var(--github);
     background-color:var(--bs-white);
+}
+
+.menu-link{
+    text-decoration: none;
+    color:var(--bs-white);
+    height:5rem;
+    padding: 1rem 0;
 }
