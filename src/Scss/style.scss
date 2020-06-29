@@ -34,6 +34,7 @@ a{
 }
 
 .fa-facebook,.fa-twitter,.fa-instagram,.fa-youtube,.fa-twitch,.fa-github{
+    width:100%;
     height: 52px;
     padding: 1rem;
     font-size:1.4rem;
@@ -69,4 +70,11 @@ a{
     color:var(--bs-white);
     height:5rem;
     padding: 1rem 0;
+    @media (min-width: 768px){
+        padding: 1.5rem 0;
+    }
+}
+
+p.menu-link{
+    margin-bottom: 0;
 }
