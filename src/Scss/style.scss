@@ -19,7 +19,7 @@ li{
     list-style: none;
 }
 
-a{
+a, a:link, a:hover, a:active{
     text-decoration: none;
     color:var(--bs-white);
 }
@@ -73,8 +73,26 @@ a{
     @media (min-width: 768px){
         padding: 1.5rem 0;
     }
+
 }
 
 p.menu-link{
     margin-bottom: 0;
+}
+
+.banner{
+    top:23%;
+    left:9%;
+
+    @media screen and (min-width: 768px){
+        top:20%;
+        left:18%;
+    }
+}
+
+.icon{
+    font-size: 2rem;
+    @media screen and (min-width: 768px){
+        font-size: 3rem;
+    }
 }
